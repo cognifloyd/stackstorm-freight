@@ -1,6 +1,6 @@
 ---
     name: 'update_cache'
-    runner_type: 'run-remote'
+    runner_type: 'remote-shell-cmd'
     description: 'Update the Freight cache and regenerate the repository'
     enabled: true
     entry_point: ''

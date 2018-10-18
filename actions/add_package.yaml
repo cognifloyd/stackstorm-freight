@@ -1,6 +1,6 @@
 ---
     name: 'add_package'
-    runner_type: 'run-remote-script'
+    runner_type: 'remote-shell-script'
     description: 'Add package to the Freight cache'
     enabled: true
     entry_point: 'add_package.py'
