@@ -17,7 +17,7 @@ sys.argv.pop(0)
 repos = sys.argv[-1]
 sys.argv.pop(-1)
 # Remaining items are our list
-if re.search('\*', sys.argv[0]):
+if re.search(r'\*', sys.argv[0]):
     files = glob.glob(sys.argv[0])
 else:
     files = sys.argv
