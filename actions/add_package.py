@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+from __future__ import print_function
+
 import os
 import sys
 import glob
@@ -42,5 +44,5 @@ for f in files:
         output['result'] = "error"
         exitcode = 1
 
-print json.dumps(output)
+print(json.dumps(output))
 sys.exit(exitcode)
