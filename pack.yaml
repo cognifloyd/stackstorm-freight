@@ -2,7 +2,7 @@
 ref: freight
 name: freight
 description: freight
-version: 0.1.2
+version: 0.1.3
 author: James Fryman
 email: james@fryman.io
 python_versions:
